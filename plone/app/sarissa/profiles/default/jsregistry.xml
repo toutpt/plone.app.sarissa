@@ -6,4 +6,7 @@
     insert-after="dropdown.js"
     expression="python:not context.restrictedTraverse('@@plone_portal_state').anonymous() or (getattr(portal, 'kupu_library_tool', None) and portal.kupu_library_tool.isKupuEnabled(REQUEST=request))" />
 
+ <!-- at the moment, just unactivate it, will be deleted by upgrade step -->
+ <javascript id="sarissa.js" enabled="false"/>
+
 </object>
