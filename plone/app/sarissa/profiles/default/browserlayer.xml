@@ -1,0 +1,6 @@
+<layers>
+<!-- uncomment to activate
+    <layer name="plone.app.sarissa"
+           interface="plone.app.sarissa.interfaces.ILayer" />
+-->
+</layers>
