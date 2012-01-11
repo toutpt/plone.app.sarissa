@@ -16,5 +16,14 @@
       description='Extension profile for plone.app.sarissa.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+  
+  <genericsetup:upgradeStep
+      source="*"
+      destination="1000"
+      title="Remove sarissa from 3rdParty registred in portal_javascripts"
+      description=""
+      profile="plone.app.sarissa:default"
+      handler=".upgrades.remove_plone3rdParty_sarissa"
+      />
 
 </configure>

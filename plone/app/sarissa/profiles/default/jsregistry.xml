@@ -3,6 +3,7 @@
 
 <!-- Sarissa is used by both Kupu and KSS -->
  <javascript id="++resource++plone.app.sarissa/sarissa.js"
+    insert-after="dropdown.js"
     expression="python:not context.restrictedTraverse('@@plone_portal_state').anonymous() or (getattr(portal, 'kupu_library_tool', None) and portal.kupu_library_tool.isKupuEnabled(REQUEST=request))" />
 
 </object>
