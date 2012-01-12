@@ -1,8 +1,9 @@
 Introduction
 ============
 
-This addon register sarissa into Plone's resource registry. It is parts of
-plip 12453_
+This addon register sarissa into Plone's resource registry. 
+
+version: ??
 
 About Sarissa
 =============
@@ -13,5 +14,4 @@ XML loading from URLs or strings, XSLT transformations, XPath queries etc and
 comes especially handy for people doing what is lately known as "AJAX"
 development.
 
-.. _12453: https://dev.plone.org/ticket/12453
 .. _sarissa: http://dev.abiss.gr/sarissa/
